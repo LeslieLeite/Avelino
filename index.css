@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(182, 255, 249);
+    font-family: Arial;
+    color: black;
+
+}
+ 
+h1 {
+    text-align:center
+    
+}
+
+h2 {
+    text-align:center
+}
+
+a {
+    text-decoration: none;
+}
+
+a  :visited{
+    color: red;
+}
+
+a  :link{
+    background-color: #b2ff99;
+    color: blue;
+    
+}
+
+a  :hover{
+    background-color: #77704D;
+
+}
+
+tr {  
+    color: black;
+}
+td {
+    color: coral;
+
+}
+section{
+    text-align: center;
+}
