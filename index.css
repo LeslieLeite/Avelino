@@ -1,5 +1,5 @@
-body {
-    background-color: rgb(182, 255, 249);
+body {body {
+    background-color: white;
     font-family: Arial;
     color: black;
 
@@ -8,6 +8,62 @@ body {
 h1 {
     text-align:center
     
+}
+
+h2 {
+    text-align:center
+}
+
+a {
+    text-decoration: none;
+}
+
+a  :visited{
+    color: red;
+}
+
+a  :link{
+    background-color: #b2ff99;
+    color: blue;
+    
+}
+
+a  :hover{
+    background-color: #77704D;
+
+}
+
+tr {  
+    color: black;
+}
+td {
+    color: coral;
+
+}
+section{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+
+.coluna{
+    float: left;
+    width: 50%;
+  .row::after {
+    content: "";
+    align-items: center;
+    clear: both;
+    display: table;
+   }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
 }
 
 h2 {
